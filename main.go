@@ -9,16 +9,12 @@ import (
 func main() {
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "server ready")
+		c.String(http.StatusOK, "Server is ready")
 	})
 	r.GET("/users", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"message": "waiting for implementation", "status": http.StatusOK})
 	})
 	r.GET("/users/:id", func(c *gin.Context) {
-		c.JSON(http.StatusOK, gin.H{"message": "waiting for implementation", "status": http.StatusOK})
-	})
-
-	r.GET("/users/:id/activities", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{"message": "waiting for implementation", "status": http.StatusOK})
 	})
 

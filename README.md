@@ -3,6 +3,8 @@ User authentication service which is written by Golang
 
 ###Third parties
 
+gpm + gvp
+
 Dependency management
 
 	https://github.com/tools/godep
